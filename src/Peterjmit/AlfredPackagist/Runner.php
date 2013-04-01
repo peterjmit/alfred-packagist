@@ -8,9 +8,6 @@ class Runner
 {
     const PACKAGIST_SEARCH_ENDPOINT = 'https://packagist.org/search.json?q=';
 
-    public $lastQuery;
-    public $lastResponse;
-
     private $workflow;
 
     public function __construct()

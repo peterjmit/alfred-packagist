@@ -10,7 +10,7 @@ class Workflow
     const XML_ATTR = 1;
     const XML_EL = 2;
 
-    public $browser;
+    private $browser;
 
     private $xmlMap = array(
         'uid' => self::XML_ATTR,
